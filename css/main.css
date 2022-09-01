@@ -368,7 +368,8 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
+  opacity: 1; // Leave this as 1
+  background-color: rgba(0,0,0,0.6);
   color: #4266B6;
   text-align: center;
 }
