@@ -16,6 +16,14 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 		<link type="text/css" rel="stylesheet" href="css/main.css">
+
+		<style>		
+			html{
+			margin: 0;
+			height: 100%;
+			overflow: hidden;
+			}
+		</style>
 		
 	</head>
 
@@ -37,7 +45,7 @@
 	
 	
 				<div class="site-logo">
-				  <a href="#">
+				  <a href="index.html">
 						<img src="./assets/passthoughtlogo_notext.png" alt="..." height="75"><span style="color:#4266B6"> pass<span style="color:#159CD8">thought </span>
 					</a>
 				</div>
@@ -46,9 +54,9 @@
 				  <nav class="site-navigation text-right ml-auto " role="navigation">
 	
 					<ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-					  <li><a href="#how" class="nav-link">features</a></li>
-					  <li><a href="#about" class="nav-link">about us</a></li>
-					  <li><a href="#join" class="nav-link">join</a></li>
+						<li><a href="features.html" class="nav-link">features</a></li>
+						<li><a href="about.html" class="nav-link">about us</a></li>
+						<li><a href="join.html" class="nav-link">join</a></li>
 					</ul>
 				  </nav>
 	
@@ -261,7 +269,10 @@
 		<!--END 3D MODEL-->
 
 		<div class="footer">
-			<p>Our top neurologists and data scientists work together to provide you data encryption and authentification by analyzing your brain waves. We provide service across all platforms and apps.</p>
+			<div class ="container p-5">
+				<a class="btn btn-primary" href="join.html" role="button">join our service!</a>
+			</div>
+			<p class ="mx-auto">Our top neurologists and data scientists work together to provide you data encryption and authentification by analyzing your brain waves. We provide service across all platforms and apps.</p>
 		  </div>
 
 		<script src="js/jquery.sticky.js"></script>

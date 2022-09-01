@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
-html{
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-}
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -364,6 +358,11 @@ a {
 
 /* End Navbar section */
 
+.btn{
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -372,5 +371,4 @@ a {
   background-color: white;
   color: #4266B6;
   text-align: center;
-  margin: 1vw 2vw 1vw 1vw;
 }
