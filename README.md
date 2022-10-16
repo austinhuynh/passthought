@@ -7,6 +7,8 @@
   <img src="https://raw.githubusercontent.com/austinhuynh/passthought/main/assets/passthoughtlogo.png">
 </p>
 
+Mockup site made for UCSD CogSci project.
+
 This project was built using these technologies.
 
 - HTML
